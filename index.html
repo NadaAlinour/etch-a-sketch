@@ -1,14 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Etch-a-Sketch</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="index.js" defer></script>
 </head>
-<body>
-  <div class="main-container">
 
+<body>
+
+  <div class="main-container">
+    <div class="game-title">
+      <img src="title.png" />
+    </div>
+    <div class="controls-canvas-container">
+      <div class="controls-container">
+        <div class="color-selector">
+          <input id="color-selector" type="color" value="#000000"/>
+        </div>
+        <button id="monochrome-btn"><img src="monochrome.png"/></button>
+        <button id="psychedelic-btn"><img src="psychedelic.png"/></button>
+        <button id="eraser-btn"><img src="eraser.png"/></button>
+        <button id="clear-btn"><img src="clear.png"/></button>
+        <!--<label>choose pixelz 1 to 100</label>
+        <input type="number" min="1" max="100" value="16" id="pixel-input"/>
+        <button id="pixel-button">click me</button> -->
+      </div>
+      <div class="canvas-container"></div>
+    </div>
+    <div class="copyright-section">Copyright &#169; 2024 NadaAli <a href="https://github.com/NadaAlinour"
+        target="_blank"><i class="fa fa-github" style="font-size:24px"></i></a></div>
   </div>
 </body>
+
 </html>
