@@ -7,5 +7,8 @@
 - Clear the canvas to start over
 
 *To enter and leave the canvas without leaving a paint trail: right click, move the cursor to the desired location then left click to start sketching.*
+
+:star:[Live Demo](https://nadaalinour.github.io/etch-a-sketch/)
+
   
 ![image](https://github.com/NadaAlinour/etch-a-sketch/assets/48387157/a8c15cff-2ef0-40ff-b17b-31dfb2025fb1)
