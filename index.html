@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Etch-a-Sketch</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="index.js" defer></script>
@@ -19,17 +20,22 @@
     <div class="controls-canvas-container">
       <div class="controls-container">
         <div class="color-selector">
-          <input id="color-selector" type="color" value="#000000"/>
+          <input id="color-selector" type="color" value="#000000" />
         </div>
-        <button id="monochrome-btn"><img src="monochrome.png"/></button>
-        <button id="psychedelic-btn"><img src="psychedelic.png"/></button>
-        <button id="eraser-btn"><img src="eraser.png"/></button>
-        <button id="clear-btn"><img src="clear.png"/></button>
-        <!--<label>choose pixelz 1 to 100</label>
-        <input type="number" min="1" max="100" value="16" id="pixel-input"/>
-        <button id="pixel-button">click me</button> -->
+        <button id="monochrome-btn"><img src="monochrome.png" /></button>
+        <button id="psychedelic-btn"><img src="psychedelic.png" /></button>
+        <button id="eraser-btn"><img src="eraser.png" /></button>
+        <button id="clear-btn"><img src="clear.png" /></button>
       </div>
-      <div class="canvas-container"></div>
+      <div class="canvas-canvascontrols-container">
+        <div class="canvas-container"></div>
+        <div class="canvas-size-controls">
+          <button id="small-btn">x16</button>
+          <button id="med-btn">x32</button>
+          <button id="large-btn">x64</button>
+
+        </div>
+      </div>
     </div>
     <div class="copyright-section">Copyright &#169; 2024 NadaAli <a href="https://github.com/NadaAlinour"
         target="_blank"><i class="fa fa-github" style="font-size:24px"></i></a></div>
